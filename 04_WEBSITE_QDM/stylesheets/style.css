@@ -29,6 +29,8 @@
 
     --demi-gras: 600;
 
+    --gras: 800;
+
 /* Interlignage */
 
     --interligne: 1.5;
@@ -44,7 +46,66 @@ body{
     line-height: var(--interligne);
 
 }
+
+header{
+    background-image: url("../IMG/PICTURES/nantes-img.jpg");
+    background-size: cover;
+    min-height: 60vh;
+    font-family: var(--police);
+}
+
+.header-nav-accueil{
+    margin: 0;
+    padding: 20px;
+    background: var(--main-color);
+    opacity: 80%;
+    position:fixed;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.menu-nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-nav li{
+    margin: 1.5rem;
+}
+
+.logo-header img{
+    height : 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    opacity: 80%;
+}
+
+.header-hero .img-box{
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
+    margin: 0;
+    min-height: 100px;
+    padding: 4.5rem;
     font-family: var(--police);
     font-size: var(--text-title-h1);
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
+
